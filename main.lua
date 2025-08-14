@@ -1,10 +1,3 @@
--- ========================================
--- BLOX FRUITS COMPLETE HUB SCRIPT
--- Desenvolvido para testes de anticheat
--- Interface com gradiente roxo/preto
--- Todas as funcionalidades completas
--- ========================================
-
 local Players = game:GetService("Players")
 local RunService = game:GetService("RunService")
 local TweenService = game:GetService("TweenService")
@@ -22,9 +15,6 @@ local character = player.Character or player.CharacterAdded:Wait()
 local humanoid = character:WaitForChild("Humanoid")
 local rootPart = character:WaitForChild("HumanoidRootPart")
 
--- ========================================
--- CONFIGURAÇÕES GLOBAIS
--- ========================================
 local config = {
     -- Grind Settings
     autoFarmLevel = false,
